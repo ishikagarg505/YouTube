@@ -1,0 +1,106 @@
+#header{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    width:100%;
+    height:80px;
+    display:grid;
+    grid-template-columns: 200px 1fr 250px;
+    
+    border-bottom: 2px solid rgb(209, 208, 208);
+    gap:40px;
+    padding-top: 10px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#left{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-right: 10px;
+}
+#right{
+    justify-content: space-evenly;
+}
+
+#right , #middle{
+    
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    
+
+}
+#left{
+
+justify-content:space-around;
+
+}
+#mag_glass{
+    height:42px;
+    width:80px;
+    border:2px solid rgb(128, 126, 126);
+    background-color: rgb(230, 228, 228);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+#microphone{
+    margin-left: 20px;
+    height:45px;
+    width:45px;
+    border-radius: 50%;
+    background-color:rgb(230, 228, 228) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#search{
+
+    width:750px;
+    height:40px;
+    font-size: 20px;;
+    background-color: white;
+    color:black;
+    border-radius:30px;
+    padding-left:12px;
+    border-color: rgb(128, 126, 126);
+
+}
+#search.placeholder{
+
+    color:rgb(177, 176, 176);
+    font-size:20px;
+    font-family:arial;
+    padding:4px 10px;
+
+}
+#youtubelogo{
+    height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
